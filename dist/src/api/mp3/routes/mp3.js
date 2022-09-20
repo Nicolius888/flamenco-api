@@ -1,7 +1,7 @@
 "use strict";
 /**
- * test router
+ * mp3 router
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const strapi_1 = require("@strapi/strapi");
-exports.default = strapi_1.factories.createCoreRouter('api::test.test');
+exports.default = strapi_1.factories.createCoreRouter('api::mp3.mp3');

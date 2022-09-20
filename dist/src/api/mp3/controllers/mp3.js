@@ -1,7 +1,7 @@
 "use strict";
 /**
- * test controller
+ * mp3 controller
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 const strapi_1 = require("@strapi/strapi");
-exports.default = strapi_1.factories.createCoreController('api::test.test');
+exports.default = strapi_1.factories.createCoreController('api::mp3.mp3');

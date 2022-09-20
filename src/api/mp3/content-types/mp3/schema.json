@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mp3s",
+  "info": {
+    "singularName": "mp3",
+    "pluralName": "mp3s",
+    "displayName": "mp3",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "artist": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "song": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
